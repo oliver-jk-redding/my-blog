@@ -1,0 +1,7 @@
+{
+  "name": "Ghostly-boots",
+  "version": "0.9.0",
+  "scripts": {
+    "load": "rm -rf ~/Workspace/ghost/ghost/content/themes/ghostly-boots && cp -r ~/Workspace/ghost/my-blog-themes/ghostly-boots ~/Workspace/ghost/ghost/content/themes/"
+  }
+}
