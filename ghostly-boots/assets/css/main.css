@@ -199,7 +199,11 @@ figure {
    line-height: 1.5;
    padding-top: 0.5em;
    padding-left: 20px;
-   text-align: justify;
+}
+@media (min-width: 450px) {
+   .blog-main {
+      text-align: justify;
+   }
 }
 
 /* Pagination */
