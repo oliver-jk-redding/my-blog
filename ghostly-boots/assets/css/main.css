@@ -45,7 +45,7 @@ figure {
 }
 .blog-post-title {
    font-weight: bold;
-   text-align: justify;
+   /*text-align: justify;*/
 }
 
 /*
@@ -78,7 +78,7 @@ figure {
    color: #fff;
    text-decoration: none;
 }
-.navbar-default .navbar-nav > .open > a,
+/*.navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
@@ -86,7 +86,7 @@ figure {
    background-color: transparent;
    filter: none;
    box-shadow: none;
-}
+}*/
 
 /* Active state gets a caret at the bottom */
 
@@ -129,8 +129,18 @@ figure {
    margin-top: 30px;
    margin-bottom: 0;
    color: #000;
-   font-size: 60px;
+   font-size: 40px;
    font-weight: bold;
+}
+@media (min-width: 400px) {
+   .blog-title {
+      font-size: 45px;
+   }
+}
+@media (min-width: 450px) {
+   .blog-title {
+      font-size: 60px;
+   }
 }
 @media (min-width: 768px) {
    .blog-description {
