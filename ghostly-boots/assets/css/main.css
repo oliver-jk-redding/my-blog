@@ -78,15 +78,17 @@ figure {
    color: #fff;
    text-decoration: none;
 }
-/*.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-   background-image: none;
-   background-color: transparent;
-   filter: none;
-   box-shadow: none;
-}*/
+@media (min-width: 768px) {
+   .navbar-default .navbar-nav > .open > a,
+   .navbar-default .navbar-nav > .active > a,
+   .navbar-default .navbar-nav>.active>a:focus,
+   .navbar-default .navbar-nav>.active>a:hover {
+      background-image: none;
+      background-color: transparent;
+      filter: none;
+      box-shadow: none;
+   }
+}
 
 /* Active state gets a caret at the bottom */
 
